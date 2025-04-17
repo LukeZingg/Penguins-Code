@@ -7,7 +7,7 @@ library(dplyr)
 library(ggplot2)
 library(ggpubr)
 
-##### istogram of body mass for all penguins #### 
+##### Histogram of body mass for all penguins #### 
 # Clean data: filter non-missing body masses
 penguins_clean <- penguins |>
   filter(!is.na(body_mass_g)) 
