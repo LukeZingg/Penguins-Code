@@ -1,4 +1,5 @@
 #Install these packages
+install.packages(c("palmerpenguins", "ggplot2", "dplyr", "ggpubr"))
 
 # Load required libraries
 library(palmerpenguins)
